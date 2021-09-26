@@ -9,3 +9,21 @@ While applying for jobs, it is quite time-consuming to prepare cover letters for
 The best solution is to automate the routine of replacing text in the cover letter template while keeping the personalization. 
 
 This script helps you automate writing and managing cover letters. It collects all varied text from a CSV table and creates personalized ready-to-go cover letters in seconds. 
+
+## Set-up 
+- Clone GitHub repository
+- Install Pygame: pip install pygame
+- Follow instructions from cover_letter_generator.ipynb file
+    - Create a sample CV doc file (example: sample_cv_raw.docx file)
+    - Insert MailMerge fields into the sample CV doc file using this [tutorial](https://pbpython.com/python-word-template.html#word-merge-fields). (example: sample_cv_with_MergeField.docx)
+    - Update cv_field_input.csv file (i.e fill in date, job title, company name, job description, customized comment for the company) 
+    - Open file python main.py (assign template to your cv sample file)
+- Run: python main.py
+
+
+## Connect with me!
+
+[<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/linkedin.png" title="LinkedIn">](https://www.linkedin.com/in/thaimynguyen/)  [<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/github.png" title="Github">](https://github.com/thaimynguyen)
+
+## Email Me :e-mail:
+[<img target="_blank" src="https://img.icons8.com/bubbles/100/000000/secured-letter.png" title="Mail me">](mailto:thaimynguyen@gmail.com)
